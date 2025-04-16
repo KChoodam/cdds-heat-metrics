@@ -12,6 +12,9 @@ This notebook contains all the workflow to calculate [NOAA's heat index](https:/
 
 For this study, I use [analysis-read ERA5](https://github.com/google-research/arco-era5)'s hourly dataset spanning from 1940-2024.
 
+You can use my fork repository to retrieve the data. Original repository by Maile Sasaki
+[https://github.com/KChoodam/climate_map/tree/main]
+
 #### ERA5_analysis
 
 This notebook apply sklearn's QuantileRegressor to different calculated metrics and display it as images.
